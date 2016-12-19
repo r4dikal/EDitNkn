@@ -73,7 +73,7 @@ if (isset($update->edited_message)){
 }elseif(isset($update->message-> new_chat_member )){
 bot('sendMessage',[
       'chat_id'=>$chat_id,
-      'text'=>"☺️مرسی که ادد کردین "
+      'text'=>"Welcome :D "
     ]);
 }
   
